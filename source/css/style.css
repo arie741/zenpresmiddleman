@@ -13269,4 +13269,35 @@ body ul {
 	background-color: #AEE239;
 }
 
+.qcontrol button:first-child {
+	border-radius:4px 0px 0px 4px;
+}
+
+.qcontrol button:last-child {
+	border-radius:0px 4px 4px 0px;
+}
+
+.kj {
+	margin-left:15px;
+}
+
+.sharebuttons {
+	margin-top:20px;
+}
+
+.zpmodal-lg {
+	padding:10px;
+}
+
+.oc-item label{
+	min-height:38px;
+} 
 /*CHECKBOXES*/
+
+/*MEDIA QUERRY*/
+@media (min-width: 768px){
+	.zpmodal {
+    width: 350px !important;
+    margin: 30px auto;
+	}
+}
