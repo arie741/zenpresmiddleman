@@ -13266,7 +13266,7 @@ body ul {
 }
 
 .progress-bar-success {
-	background-color: #AEE239;
+	background-color: #59BA41;
 }
 
 .qcontrol button:first-child {
@@ -13292,6 +13292,25 @@ body ul {
 .oc-item label{
 	min-height:38px;
 } 
+#footer.dark {
+	border-top:none;
+}
+
+.footertop {
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.footertop .st {
+	margin-top:5px;
+	color: rgba(255,255,255,0.25);
+	font-weight: bold;
+	font-style: italic;
+}
+
+.footertop .copyrights-menu {
+	margin-top:5px;
+}
 /*CHECKBOXES*/
 
 /*MEDIA QUERRY*/
