@@ -13337,6 +13337,21 @@ body ul {
 #tabs-7 a {
 	color:#000;
 }
+
+.table .rank1, .table .rank1:hover {
+	background-color: #F7CA18;
+	color:#000;
+}
+
+.table .rank2, .table .rank2:hover {
+	background-color: #9400D3;
+	color:#000;
+}
+
+.table .rank3, .table .rank3:hover {
+	background-color: #40C0CB;
+	color:#000;
+}
 /*CHECKBOXES*/
 
 /*MEDIA QUERRY*/
