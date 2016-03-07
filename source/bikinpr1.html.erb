@@ -1,0 +1,160 @@
+---
+title: Zenius Prestasi | Bikin PR
+---
+<div class="container topmargin">
+	<h1>
+	Bikin PR
+	</h1>
+	<div class="row">
+		<div class="col-md-6">
+			<form action="">
+				<label for="pkelas">Kelas</label>
+				<select id="pkelas" class="form-control">
+					<option>1 SD</option>
+					<option>2 SD</option>
+					<option>3 SD</option>
+					<option>4 SD</option>
+					<option>5 SD</option>
+					<option>6 SD</option>
+					<option>7 SMP</option>
+					<option>8 SMP</option>
+					<option>9 SMP</option>
+					<option>10 SMA</option>
+					<option>11 SMA</option>
+					<option>12 SMA</option>
+				</select>
+				<br>
+				<label for="psubjek">Subjek</label>
+				<select id="psubjek" class="form-control">
+					<option>Matematika</option>
+					<option>Biologi</option>
+					<option>Kimia</option>
+					<option>Fisika</option>
+					<option>Sejarah</option>
+				</select>
+				<br>
+				<label for="pbab">Bab</label>
+				<select id="pbab" class="form-control">
+					<option>Integral</option>
+					<option>Postulat</option>
+					<option>Gerak Melingkar Beraturan</option>
+					<option>Cermin</option>
+					<option>Vektor</option>
+				</select>
+				<br>
+				<label for="psbab">Sub-Bab</label>
+				<div class="table-responsive" id="psbab">
+					<table class="table table-bordered nobottommargin">
+						<tbody>
+							<tr>
+								<td>
+									<a href="#">Biologi</a>
+									<button type="button" class="btn btn-success"><i class="fa fa-plus"></i></button><input type="text" placeholder="0">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#">Informatika</a>
+									<button type="button" class="btn btn-success"><i class="fa fa-plus"></i></button><input type="text" placeholder="0">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#">Psikologi</a>
+									<button type="button" class="btn btn-success"><i class="fa fa-plus"></i></button><input type="text" placeholder="0">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<form action="">
+				<label for="ssa">Soal-soal Anda</label>
+				<div class="table-responsive" id="ssa">
+					<table class="table table-bordered nobottommargin">
+						<tbody>
+							<tr>
+								<td>
+									<a href="#">Biologi</a>
+									<button type="button" class="btn btn-danger"><i class="fa fa-times"></i></button><input type="text" placeholder="0">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#">Informatika</a>
+									<button type="button" class="btn btn-danger"><i class="fa fa-times"></i></button><input type="text" placeholder="0">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#">Psikologi</a>
+									<button type="button" class="btn btn-danger"><i class="fa fa-times"></i></button><input type="text" placeholder="0">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="tbjmlh">
+						<div class="row">
+							<input type="text" value="0" disabled="disabled"><b>Jumlah: </b>
+						</div>
+						<br>
+						<div class="row">
+							<button type="button" class="button" data-toggle="modal" data-target="#pr-done-modal">Selesai</button>
+							<div class="modal fade" id="pr-done-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-body">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+												<h4 class="modal-title" id="myModalLabel">Data PR</h4>
+											</div>
+											<div class="modal-body">
+												<form action="">
+													<div class="form-group">
+														<label for="pnama">Nama</label>
+														<input type="text" class="form-control" id="pnama" placeholder="Nama">
+													</div>
+													<div class="form-group">
+														<label for="pdline">Deadline</label>
+														<input type="date" class="form-control dlinput" id="pdline">
+													</div>
+													<div class="form-group">
+														<label for="pkirim">Kirim ke </label>
+														<input type="text" class="form-control" id="pkirim" placeholder="Nama Kelas / Nama Murid">
+													</div>
+													<div class="form-group">
+														<label for="">Tipe</label>
+														<ul>
+															<li>
+																<input id="ptugas" type="radio" name="tipesoal" value="tugas">
+																<label for="ptugas">Tugas</label>
+															</li>
+															<li>
+																<input id="pujian" type="radio" name="tipesoal" value="ujian">
+																<label for="pujian">Ujian</label>
+															</li>
+														</ul>
+													</div>
+													<div class="form-group">
+														<label for="pspoin">Set Poin</label>
+														<input type="text" class="form-control" id="pspoin" placeholder="1-100">
+													</div>
+												</form>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+												<button type="button" class="btn btn-primary">Bikin PR</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
